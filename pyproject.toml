@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logloom"
+version = "0.1.0"
+description = "log prettifier: parse timestamps/sessions, output clean timeline + optional html report"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "bella"}]
+keywords = ["logs", "timeline", "pcap", "parser"]
+
+[project.scripts]
+logloom = "logloom.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

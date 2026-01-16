@@ -1,0 +1,4 @@
+2026-01-17 06:12:33 INFO [conn=ABC] src=10.0.0.5 dst=10.0.0.9 handshake ok
+06:12:34 DEBUG [conn=ABC] sent 128 bytes
+06:12:35 WARN  [conn=ABC] retry=1 timeout
+2026-01-17T06:12:36Z ERROR [conn=XYZ] src=10.0.0.7 dst=10.0.0.9 dropped
